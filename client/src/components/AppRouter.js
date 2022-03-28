@@ -18,6 +18,7 @@ const AppRouter = observer(() => {
                 <Route key={path} path={path} component={Component} exact/>
             )}
             <Redirect to={SHOP_ROUTE}/>
+            <p></p>
         </Switch>
     );
 });
